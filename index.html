@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#8b4b3f">
+<title>AMNI Creations</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#fff8ef;color:#241b1b;line-height:1.55}
+nav{position:sticky;top:0;z-index:10;background:#fffdf9ee;backdrop-filter:blur(12px);border-bottom:1px solid #eadfd4;padding:12px 14px}
+.navin{text-align:center}.logo{font-weight:900;letter-spacing:2px;color:#8b4b3f;font-size:1.15rem;margin-bottom:6px}
+nav a{display:inline-block;color:#241b1b;text-decoration:none;font-size:.84rem;padding:7px 9px}
+.hero{min-height:calc(100vh - 78px);display:flex;align-items:center;text-align:center;padding:42px 18px;background:radial-gradient(circle at 10% 15%,#f7dcae 0 8%,transparent 9%),radial-gradient(circle at 90% 75%,#e6c2b7 0 10%,transparent 11%)}
+.hero-box{width:100%}.badge{display:inline-block;background:#fff3dc;border:1px solid #efd6ad;padding:6px 12px;border-radius:99px;font-size:.8rem;margin-bottom:16px}
+h1{font-size:clamp(3.5rem,18vw,5.5rem);line-height:.9;letter-spacing:-3px;color:#8b4b3f;margin:0}
+.hero p{font-size:1rem;color:#5c4c47;margin:22px auto;max-width:500px}
+.btn{display:block;width:100%;max-width:340px;margin:10px auto;padding:14px 18px;border-radius:999px;background:#8b4b3f;color:#fff;text-decoration:none;font-weight:800}
+.btn.alt{background:#fff;color:#8b4b3f;border:1px solid #d7b9b0}
+section{padding:55px 18px}.wrap{max-width:700px;margin:auto}
+.section-title{text-align:center;font-size:1.9rem;margin:0 0 8px}.sub{text-align:center;color:#766963;margin:0 0 28px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:1fr;gap:15px}.card{background:#fffdf9;border:1px solid #eadfd4;border-radius:18px;padding:22px;box-shadow:0 8px 24px #5b33200c}.icon{font-size:2.3rem}.card h3{margin:9px 0 4px}
+.about{background:#2d2424;color:#fff8ef}.about .sub{color:#d9cbc5}.quote{font-size:1.45rem;line-height:1.3;margin-top:20px}
+.order{background:#f1dfc8}.step{display:flex;gap:13px;margin:17px 0}.num{min-width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#8b4b3f;color:#fff;font-weight:800}
+footer{padding:25px 18px;text-align:center;background:#1f1919;color:#cfc1ba;font-size:.85rem}
+@media(min-width:700px){.navin{display:flex;justify-content:space-between;align-items:center}.logo{margin:0}nav a{margin-left:15px}.hero{min-height:80vh}section{padding:75px 6%}.grid{grid-template-columns:repeat(2,1fr)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.quote{font-size:1.8rem}}
+</style>
+</head>
+<body>
+<nav><div class="navin"><div class="logo">AMNI CREATIONS</div><div><a href="#products">Products</a><a href="#about">About</a><a href="#order">Order</a></div></div></nav>
+
+<header class="hero"><div class="hero-box">
+<span class="badge">HANDMADE • CUSTOM • CREATIVE</span>
+<h1>AMNI<br>Creations</h1>
+<p>Small handmade creations made with big imagination — bookmarks, greeting cards, keychains and custom designs.</p>
+<a class="btn" href="#products">Explore Our Work</a>
+<a class="btn alt" href="#order">Place an Order</a>
+</div></header>
+
+<section id="products"><div class="wrap">
+<h2 class="section-title">What We Create</h2><p class="sub">Creative products made for gifts, friends and special moments.</p>
+<div class="grid">
+<div class="card"><div class="icon">🔖</div><h3>Handmade Bookmarks</h3><p>Creative, colorful bookmarks made for readers and gift lovers.</p></div>
+<div class="card"><div class="icon">💌</div><h3>Custom Greeting Cards</h3><p>Personalized cards for birthdays, celebrations and surprises.</p></div>
+<div class="card"><div class="icon">🔑</div><h3>Handmade Keychains</h3><p>Fun handmade pieces for your keys, bag or gifts.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Drawing & Design</h3><p>Custom drawings and creative designs made to your idea.</p></div>
+</div></div></section>
+
+<section id="about" class="about"><div class="wrap">
+<h2 class="section-title">Made by two creators.</h2>
+<p class="sub">AMNI Creations is a small creative business by Amarjit Malakar and Nishant Oraon.</p>
+<p>We are starting small, learning as we go, and turning simple materials and ideas into things people can enjoy and gift.</p>
+<div class="quote">“Your idea. Our creativity. Something handmade.”</div>
+</div></section>
+
+<section id="order" class="order"><div class="wrap">
+<h2 class="section-title">How to Order</h2><p class="sub">Tell us what you want and we'll discuss the details.</p>
+<div class="step"><div class="num">1</div><div><b>Choose</b><br>Pick a product or request a custom design.</div></div>
+<div class="step"><div class="num">2</div><div><b>Customize</b><br>Share your colors, name, message or idea.</div></div>
+<div class="step"><div class="num">3</div><div><b>Confirm</b><br>Discuss the price and delivery/pickup.</div></div>
+<a class="btn" href="mailto:amnicreations@example.com">Email AMNI Creations</a>
+</div></section>
+
+<footer>© 2026 AMNI Creations • Handmade with heart.<br>Replace the demo email with your real contact details.</footer>
+</body></html>
